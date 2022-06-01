@@ -1,0 +1,12 @@
+{
+    "name": "amirandev/php-file-extentions",
+    "description": "Audio, Video and Image file extensions array. Search file extension in the array before upload.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Amiran Kimadze",
+            "email": "amoswaper@gmail.com"
+        }
+    ],
+    "require": {}
+}
