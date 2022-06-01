@@ -2,7 +2,8 @@
 
 Put the helper function to anywhere. Copy, Paste, Include or autoload checkExtension() function.
 
-#How tom use?
+How tom use?
+
 checkExtension('Ebter the extension you want to check', 'Enter media type: video, image, audio')
 
 Example: 
