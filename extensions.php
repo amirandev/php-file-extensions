@@ -18,4 +18,21 @@ $extensions = [
 		'pef', 'png', 'ppm', 'ps', 'psd', 'raf', 'raw', 'rw2', 
 		'tif', 'tiff', 'webp', 'x3f', 'xcf', 'xps'
 	]
-];  
+];
+
+$mediaTypes = [
+	'audio', 'video', 'image'
+];
+
+function check($ext, $mediaType){
+	global $extensions, $mediaTypes;
+	$ext = strtolower(trim($ext));
+	$mediaType = strtolower(trim($mediaType));
+	if(!array_key_exists($mediaType, $extensions)) return false;
+
+	return in_array($ext, $extensions[$mediaType]) ? true : false;
+}
+
+
+// var_dump(check('png', 'image'));
+
